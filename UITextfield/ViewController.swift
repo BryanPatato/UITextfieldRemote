@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var textField: UITextField!
+    var blah = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,6 +18,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func button(_ sender: UIButton) {
+        blah = textField.text!
     }
     
     
